@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+
+body {
+  cursor: default;
 }
 
-.App-logo {
-  height: 40vmin;
+#nav-container {
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 2;
+}
+
+#face-image-container {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#face-image-container > div > p{
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.face-image{
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+#game-over-page {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-over-page > p{
+  width: 400px;
+  height: 25px;
+  text-align: center;
+  margin: 10px;
+}
+
+#game-over-page > input{
+  width: 300px;
+  height: 25px;
+  text-align: center;
+  margin: 10px;
+}
+
+#game-over-page > button{
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+
+#mouse-obj {
+  position: absolute;
+  transform:translate(-50%,-50%);
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  border: 5px dashed  rgb(255, 0, 34);
+  background-color: rgba(79, 130, 132, 0.517);
+  box-sizing: border-box;
+  border-radius: 10%;
+  opacity: 0;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bound-boxes {
+  background-color: cadetblue;
+  transform:translate(-50%,-50%);
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  border: 2px dashed red;
+  box-sizing: border-box;
+  border-radius: 10%;
+  opacity: 1;
+  pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+section {
+  padding-top: 200px;
+  height: 70vh;
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+section > div {
+  background-position: center;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+#game-image-container {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  width: 1334px;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
