@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Waldo/static/css/main.bcaafdcc.chunk.css",
+    "main.js": "/Waldo/static/js/main.ca2c737d.chunk.js",
+    "main.js.map": "/Waldo/static/js/main.ca2c737d.chunk.js.map",
+    "runtime-main.js": "/Waldo/static/js/runtime-main.bbe8e98d.js",
+    "runtime-main.js.map": "/Waldo/static/js/runtime-main.bbe8e98d.js.map",
+    "static/js/2.021037b2.chunk.js": "/Waldo/static/js/2.021037b2.chunk.js",
+    "static/js/2.021037b2.chunk.js.map": "/Waldo/static/js/2.021037b2.chunk.js.map",
+    "index.html": "/Waldo/index.html",
+    "static/css/main.bcaafdcc.chunk.css.map": "/Waldo/static/css/main.bcaafdcc.chunk.css.map",
+    "static/js/2.021037b2.chunk.js.LICENSE.txt": "/Waldo/static/js/2.021037b2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbe8e98d.js",
+    "static/js/2.021037b2.chunk.js",
+    "static/css/main.bcaafdcc.chunk.css",
+    "static/js/main.ca2c737d.chunk.js"
+  ]
+}
